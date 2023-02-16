@@ -39,7 +39,7 @@ def main():
     target = initial_investment * 2
     while initial_investment * (1 + interest_rate)**nyears <= target:
       nyears += 1
-    print(f"               You'll have to wait {nyears} years to see your payout")
+    print(f"               <You'll have to wait {nyears} years to see your payout>")
 
     ans = input("                       Do another calculation? (y/n):  ")
    
